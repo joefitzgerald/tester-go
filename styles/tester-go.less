@@ -22,3 +22,34 @@
 .test-status-fail {
   color: @text-color-error;
 }
+
+
+// Panel --------------------
+
+.tester-go-panel {
+
+  .panel-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .panel-button {
+    color: inherit;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: default;
+
+    &:hover {
+      color: @text-color-highlight;
+    }
+    &:active {
+      color: @text-color-subtle;
+    }
+
+    &:before {
+      margin-right: 0;
+    }
+  }
+}
