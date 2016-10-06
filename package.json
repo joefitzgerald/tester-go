@@ -23,7 +23,7 @@
   "dependencies": {
     "ansi-to-html": "^0.4.1",
     "atom-package-deps": "4.2.0",
-    "etch": "0.6.3",
+    "etch": "0.7.2",
     "lodash": "^4.16.2",
     "temp": "^0.8.3",
     "rimraf": "^2.5.4"
