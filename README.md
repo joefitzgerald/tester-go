@@ -19,6 +19,7 @@ It depends on the following packages:
 * `runTestsOnSave`: Run `go test -coverprofile` on the current package each
 time you save a `.go` file (default: `true`)
 * `runTestsWithShortFlag`: Runs `go test` with `-short` flag set (default: `true`)
+* `runTestsWithVerboseFlag`: Runs `go test` with `-v` flag set (default: `false`)
 * `coverageHighlightMode`: Control the way that coverage highlighting occurs:
   * `covered-and-uncovered`: highlight covered and uncovered regions of text
   * `covered`: highlight covered regions of text
