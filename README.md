@@ -24,4 +24,7 @@ time you save a `.go` file (default: `true`)
   * `covered`: highlight covered regions of text
   * `uncovered`: highlight uncovered regions of text
   * `disabled`: disable highlighting
+* `useGutter`: Control the way code coverage is presented: (default: `false`)
+  * `false`: hilights the affected lines
+  * `true`: uses the line numbers gutter to denote affected lines
 * `focusPanelIfTestsFail`: If the `go-plus` panel is hidden, or the panel is showing a different tab, the panel will be expanded and the test tab focused when tests fail (default: `true`)
