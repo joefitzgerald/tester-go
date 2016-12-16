@@ -85,8 +85,8 @@
       "order": 3
     },
     "useGutter": {
-      "title": "Show coverage in gutter",
-      "description": "use the gutter instead of highlighting",
+      "title": "Show Coverage In Gutter",
+      "description": "Uses the line numbers gutter to denote affected lines",
       "type": "boolean",
       "default": false,
       "order": 4
